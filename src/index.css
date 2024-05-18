@@ -8,3 +8,25 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+@layer components {
+  .gradient {
+    background: linear-gradient(90deg, #f87516 0%, #5e11ff 45%, #5e11ff 100%);
+  }
+
+  .text-gradient {
+    background: linear-gradient(90deg, #f87516 0%, #5e11ff 45%, #5e11ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}

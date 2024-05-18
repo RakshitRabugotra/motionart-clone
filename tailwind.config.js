@@ -1,8 +1,22 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sora: ['Sora', 'sans-serif'],
+        outfit: ['Outfit', 'sans-serif'],
+      },
+      colors: {
+        dark: {
+          900: '#0e101b',
+        },
+        light: {
+          300: '#eee5ff',
+          600: '#afa9bf',
+        },
+      },
+    },
   },
   plugins: [],
-};
+}

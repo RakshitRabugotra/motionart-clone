@@ -1,37 +1,21 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
+import './fonts.css'
 
 /* Browser Routers */
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 /* Pages */
-import Home from '@/pages/Home/Home'
-import ErrorPage from '@/pages/Error'
-import Profile from './pages/Account/Profile'
-import ProfileSettings from '@/pages/Account/Settings'
-import Layout from './pages/Layout'
+import Page from './pages/Page'
+import ErrorPage from './pages/Error'
 
 /* Router instance */
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Layout />,
+    element: <Page />,
     errorElement: <ErrorPage />,
-    children: [
-      {
-        path: '/',
-        element: <Home />,
-      },
-      {
-        path: 'profile/',
-        element: <Profile />,
-      },
-      {
-        path: 'settings/',
-        element: <ProfileSettings />,
-      },
-    ],
   },
 ])
 
