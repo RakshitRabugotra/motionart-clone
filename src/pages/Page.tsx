@@ -1,7 +1,6 @@
 import { useTitle } from '@/utils/hooks'
 
 /* Internal Sections */
-import Banner from './Section/Banner'
 import Hero from './Section/Hero'
 import Reviews from './Section/Reviews'
 import ToolAd from './Section/ToolAd'
@@ -18,7 +17,6 @@ export default function Page() {
     <div className='min-h-screen bg-dark-900 text-light-300'>
       <Header />
       <div className='p-4 md:p-5'>
-        <Banner />
         <Hero />
         <Reviews />
         <ToolAd />

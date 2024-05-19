@@ -9,6 +9,7 @@ export default {
       },
       colors: {
         dark: {
+          800: '#0d051f',
           900: '#0e101b',
         },
         light: {
