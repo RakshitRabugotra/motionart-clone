@@ -30,6 +30,9 @@ export const REVIEWS: ReviewType[] = [
 // The image of the want
 export const WAND_IMAGE_SRC = '/wand.png'
 
+// The image in the logo
+export const LOGO_IMG_SRC = '/logo.png'
+
 export type UsageType = {
   heading: string
   description: string
@@ -48,5 +51,30 @@ export const USAGE_PREVIEW: UsageType[] = [
     description:
       'Take your website to new heights with Motion Art for Elementor. Embrace the power of motion and animation.',
     imageSrc: '/sections/section2.png',
+  },
+  {
+    heading: 'Supported by All Popular Browsers',
+    description:
+      'Rest assured, Motion Art is designed to be compatible with all major web browsers.',
+    imageSrc: '/browsers.png',
+  },
+]
+
+export const FEATURES: UsageType[] = [
+  {
+    heading: 'Light Weight',
+    description: 'Motion Art for Elementor is designed to be lightweight.',
+    imageSrc: '/features/img6.png',
+  },
+  {
+    heading: '100% Responsive',
+    description: 'Create a consistent visual experience across all devices.',
+    imageSrc: '/features/img7.png',
+  },
+  {
+    heading: 'User Friendly Interface',
+    description:
+      'Ensure a smooth experience for both applicants and administrators.',
+    imageSrc: '/features/img8.png',
   },
 ]

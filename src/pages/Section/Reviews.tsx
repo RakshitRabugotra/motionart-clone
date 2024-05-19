@@ -11,9 +11,9 @@ export default function Reviews() {
         id='review-panel'
         className='flex w-[65vw] flex-col items-center gap-14 pt-12'
       >
-        {REVIEWS.map((review: ReviewType) => {
+        {REVIEWS.map((review: ReviewType, index) => {
           return (
-            <div className='flex w-full flex-row '>
+            <div className='flex w-full flex-row ' key={index}>
               <img src={review.imageSrc} loading='lazy' decoding='async' />
               <div className='ml-4 flex grow flex-col self-stretch'>
                 <img
