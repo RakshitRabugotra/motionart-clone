@@ -12,13 +12,7 @@ export default function Heading({
   children: React.ReactNode
 }) {
   return (
-    <h1
-      id={id}
-      className={twMerge(
-        'text-center text-4xl leading-[55px] md:text-left md:text-[65px] md:leading-[75px]',
-        className,
-      )}
-    >
+    <h1 id={id} className={twMerge('text-center md:text-left', className)}>
       {children}
     </h1>
   )

@@ -64,12 +64,12 @@ export const FEATURES: UsageType[] = [
   {
     heading: 'Light Weight',
     description: 'Motion Art for Elementor is designed to be lightweight.',
-    imageSrc: '/features/img6.png',
+    imageSrc: '/features/img7.png',
   },
   {
     heading: '100% Responsive',
     description: 'Create a consistent visual experience across all devices.',
-    imageSrc: '/features/img7.png',
+    imageSrc: '/features/img6.png',
   },
   {
     heading: 'User Friendly Interface',
