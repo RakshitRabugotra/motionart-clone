@@ -15,7 +15,7 @@ export default function Page() {
   useTitle()
 
   return (
-    <div className='relative w-screen overflow-x-hidden bg-dark-900'>
+    <div className='relative w-screen bg-dark-900'>
       <div className='relative left-0 right-0 z-[5] mx-auto min-h-screen max-w-screen-xl text-light-300'>
         <Header />
         <div className='bg-transparent p-4 md:p-5'>
