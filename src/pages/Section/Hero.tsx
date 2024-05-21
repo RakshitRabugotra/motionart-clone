@@ -5,9 +5,9 @@ export default function Hero() {
     <div className='flex w-full flex-col py-20 md:flex-row'>
       <div className='flex w-full justify-center p-3 md:w-[25vw] md:justify-start'>
         <div className='flex w-1/2 max-w-48 flex-col gap-[10px] text-lg md:max-w-36'>
-          <h2 className='text-gradient text-wrap text-center font-sora font-medium md:text-left'>
+          <Heading className='text-gradient text-wrap text-center font-sora font-medium md:text-left'>
             {'Transform Your Website'}
-          </h2>
+          </Heading>
 
           <p className='text-nowrap text-center font-outfit font-light leading-6 md:text-wrap md:text-left'>
             {'With Motion Art Effect'}

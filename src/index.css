@@ -31,7 +31,7 @@
   }
 
   .card {
-    @apply card-gradient rounded-[20px] border-2 border-white/5 p-8;
+    @apply card-gradient relative z-[9] rounded-[20px] border-2 border-white/5 p-8;
   }
 }
 
@@ -41,4 +41,15 @@ body {
   padding: 0;
   overflow-x: hidden;
   overflow-y: auto;
+}
+
+body {
+  @apply bg-dark-900;
+}
+
+p,
+img,
+a,
+button {
+  @apply relative z-[9];
 }

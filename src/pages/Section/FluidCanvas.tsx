@@ -22,7 +22,7 @@ export default function FluidCanvas() {
   }, [])
 
   return (
-    <div className='fixed left-0 top-0 h-screen w-screen bg-transparent'>
+    <div className='fixed left-0 top-0 z-[1] h-screen w-screen bg-transparent'>
       <canvas ref={canvasRef} className='h-screen w-screen max-w-[100vw]' />
     </div>
   )
