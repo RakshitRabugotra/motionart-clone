@@ -15,11 +15,10 @@ export default function Page() {
   useTitle()
 
   return (
-    <div className='relative w-screen overflow-x-clip bg-dark-900'>
-      {/* <FluidCanvas /> */}
-      <div className='mx-auto min-h-screen max-w-screen-xl bg-dark-900 text-light-300'>
+    <div className='relative w-screen overflow-x-hidden bg-dark-900'>
+      <div className='relative left-0 right-0 z-[5] mx-auto min-h-screen max-w-screen-xl text-light-300'>
         <Header />
-        <div className='p-4 md:p-5'>
+        <div className='bg-transparent p-4 md:p-5'>
           <Hero />
           <Reviews />
           <ToolAd />
@@ -28,6 +27,7 @@ export default function Page() {
         </div>
       </div>
       <Footer />
+      <FluidCanvas />
     </div>
   )
 }
